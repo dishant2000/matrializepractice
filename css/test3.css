@@ -1,0 +1,10 @@
+#my-nav #my-logo .material-icons{
+    font-size: 48px;
+}
+.my-form-content-1, .my-form-content-2{
+    padding: 25px;
+    margin: 20px;
+}
+.my-form-content-2{
+    margin-bottom: 25px;
+}

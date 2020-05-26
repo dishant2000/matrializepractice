@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+   <title>Animation practice</title>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="/css/test3.css">
+   <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">         
+</head>
+<body>
+   <div class="conatainer">
+      <nav class="nav-wraper green lighten-2 accent-1" id = "my-nav">
+         <a href="#" class="sidenav-trigger" data-target="subnav-show">
+            <i class="material-icons black-text">menu</i>
+         </a>
+         <div class="container">
+            <a href = "#" class="brand-logo" id = "my-logo">
+               <i class="material-icons black-text">local_play</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+               <li><a href="#" class="black-text">Home</a></li>
+               <li><a href="#" class="black-text">About</a></li>
+               <li><a href="#" class="black-text">services</a></li>
+               <li><a href="#sign-modal" class="modal-trigger btn-floating waves-effect waves-light ">
+                  <i class="material-icons">person</i>
+               </a></li>
+
+      </div>
+      </nav>
+      <!-- sidebar Structure -->
+      <div class="sidenav" id = "subnav-show">
+         <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">services</a></li>
+               <li><a href="#sign-modal" class="modal-trigger">Enter</a></li>
+         </ul>
+      </div> <!-- sidebar Structure end-->
+      <!-- Modal Structure -->
+      <div id="sign-modal" class="modal">
+         <div class="modal-content">
+            
+            <div id="my-form">
+               <div class="tgl-btn center">
+                  <a href = "#"  class="btn red  white-text" id = "login-toggle">Log-In</a>
+                  <a href = "#"  class="btn white lighten-1  black-text" id = "signup-toggle">Sign-Up</a>
+               </div>
+               <form class="my-form-content-1" action="#" method="POST">
+                  <div class="row">
+                     <div class="input-field col s12">
+                       <input type="text" placeholder = "name or Email" class = "validate">
+                       <label for="Username">Username or Email</label>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12">
+                       <input type="password" placeholder = "password" class = "validate">
+                       <label for="Password">Password</label>
+                     </div>
+                   </div>
+                   <label> 
+                     <input type="checkbox" />
+                     <span>Remember me</span>
+                   </label>
+                   <button type="submit" class="login-button btn purple darken-2 right">
+                      Log-In
+                  </button>
+               </form>
+
+
+
+               <form class="my-form-content-2 hide" action="#" method="POST">
+                  <div class="row">
+                     <div class="input-field col s12">
+                       <input type="text" placeholder = "username" class = "validate">
+                       <label for="Username">Username</label>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12">
+                       <input type="email" placeholder = "Email" class = "validate">
+                       <label for="Email">Email</label>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12">
+                       <input type="password" placeholder = "password" class = "validate">
+                       <label for="Password">Password</label>
+                     </div>
+                   </div>
+                   <div class="row">
+                     <div class="input-field col s12">
+                       <input type="password" placeholder = "confirm password" class = "validate">
+                       <label for="Password">Confirm Password</label>
+                     </div>
+                   </div>
+                   <label> 
+                     <input type="checkbox" />
+                     <span>Agree terms & conditions</span>
+                   </label>
+                   <button type="submit" class="login-button btn purple darken-2 right">
+                      Sign-up
+                  </button>
+               </form>
+            </div>
+         </div>
+      </div> <!-- Modal Structure end-->
+          
+
+   </div> <!-- conatainer -->
+
+
+
+
+
+
+
+
+
+
+  
+   <!-- jquery cdn -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script src="/js/test3.js"></script>
+</body>
+</html>
